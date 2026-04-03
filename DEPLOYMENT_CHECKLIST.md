@@ -9,7 +9,7 @@
 - [ ] API keys collected:
   - [ ] Algorand mnemonic/private key
   - [ ] Gemini API key
-  - [ ] ElevenLabs API key (if using voice)
+
 
 ## Backend Setup on Render 🚀
 
@@ -40,7 +40,7 @@ ALGORAND_NODE_URL=https://testnet-api.algonode.cloud
 ALGORAND_INDEXER_URL=https://testnet-idx.algonode.cloud
 ALGORAND_ADMIN_MNEMONIC=<your-algorand-mnemonic>
 SUN_ASA_ID=756341116
-ELEVENLABS_API_KEY=<your-key>
+# Voice is configured with gTTS (no key needed)
 GEMINI_API_KEY=<your-key>
 DISCOM_FIXED_CHARGE=100.0
 DISCOM_ADMIN_FEE_PERCENT=2.0

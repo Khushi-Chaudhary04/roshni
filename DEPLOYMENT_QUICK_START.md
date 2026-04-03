@@ -59,7 +59,7 @@ git push origin main
 
 5. Add Environment Variables (from [backend/.env.production](backend/.env.production)):
    - Update YOUR_RENDER_BACKEND_URL with actual Render URL
-   - Add your API keys (Algorand, Gemini, ElevenLabs)
+   - Add your API keys (Algorand, Gemini)
    - Add PostgreSQL connection string
 
 6. Click Deploy and wait for "Live" status
@@ -103,7 +103,7 @@ FRONTEND_URL=https://your-vercel-frontend.vercel.app
 DATABASE_URL=postgresql://user:password@host:5432/roshni
 ALGORAND_ADMIN_MNEMONIC=your-mnemonic
 GEMINI_API_KEY=your-key
-ELEVENLABS_API_KEY=your-key
+# No voice API key needed (uses free gTTS)
 ```
 
 **Vercel Project Settings**
@@ -122,7 +122,7 @@ Create a PostgreSQL database in Render and update `DATABASE_URL`.
 
 1. **Algorand:** Account & mnemonic (testnet)
 2. **Gemini:** API key from https://makersuite.google.com
-3. **ElevenLabs:** API key from https://www.elevenlabs.io (optional)
+2. **Voice:** gTTS is configured (no API key needed - free Google TTS)
 
 ---
 

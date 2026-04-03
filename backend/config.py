@@ -34,9 +34,6 @@ class Settings(BaseSettings):
 
     sun_asa_id: int = 756341116
 
-    # ================= ELEVENLABS VOICE =================
-    elevenlabs_api_key: Optional[str] = None
-
     # ================= GEMINI AI =================
     gemini_api_key: Optional[str] = None
 

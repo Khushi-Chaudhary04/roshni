@@ -1,7 +1,7 @@
 /**
- * ElevenLabs Voice AI Service
- * Uses backend API to generate Rachel voice narration
- * Silently skips if backend fails (no broken browser TTS fallback)
+ * gTTS Voice Service
+ * Uses backend API to generate Hindi/English voice narration via free gTTS
+ * Silently skips if backend fails
  */
 
 import api from './api'
