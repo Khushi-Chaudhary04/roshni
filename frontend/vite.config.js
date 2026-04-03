@@ -8,7 +8,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'http://localhost:8000',
+        target: 'https://roshni-backend-2-1q5y.onrender.com/',
         changeOrigin: true,
       },
     },
@@ -16,6 +16,6 @@ export default defineConfig({
 
   preview: {
     host: true,
-    allowedHosts: ['roshni-f74j.onrender.com']
+    allowedHosts: ['https://roshni-frontend.onrender.com/']
   }
 })
