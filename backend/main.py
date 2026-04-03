@@ -48,7 +48,7 @@ app = FastAPI(
 # CORS Configuration
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://roshni-f74j.onrender.com"],
+    allow_origins=["https://roshni-frontend.onrender.com/"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
